@@ -15,3 +15,11 @@ console.log(heading);
 for (const text of heading) {
 	console.log(text.innerText);
 }
+
+const fruits = document.getElementById("fruits-li");
+
+console.log(fruits.innerText);
+
+for (const fruit of fruits) {
+	console.log(fruit);
+}
